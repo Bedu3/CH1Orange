@@ -1,0 +1,39 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  background-color: #3c4e59;
+}
+
+.sect1 {
+  background-color: #2b383f;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.sect1 .welcome p {
+  align-self: center;
+  font-size: 50px;
+  color: white;
+}
+
+section .logo1 {
+  height: 350px;
+}
+section h2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contenido img {
+  height: 100px;
+}
+.contenido .item3 {
+  width: 100px;
+}
+
+footer {
+  font-size: 11px;
+}
+
+/*# sourceMappingURL=sassj.css.map */
