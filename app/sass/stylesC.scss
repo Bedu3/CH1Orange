@@ -1,0 +1,31 @@
+/*
+* Variables
+*/
+$body-padding: 0 20px 0 20px;
+
+/*
+* Mixins
+*/
+
+@mixin mright($margin) {
+  margin-left: $margin;
+}
+@mixin mleft($margin) {
+    margin-left: $margin;
+}
+
+body {
+  padding: $body-padding;
+  text-align: center;
+}
+
+#footer {
+
+  &-bottom {
+
+    span {
+      @include mright(20px);
+      @include mleft(20px);
+    }
+  }
+}
