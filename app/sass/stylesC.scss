@@ -1,7 +1,8 @@
 /*
 * Variables
 */
-$body-padding: 0 20px 0 20px;
+$body-padding: 0 20px 20px 20px;
+$primary-button-color: #e60046 !important;
 
 /*
 * Mixins
@@ -11,13 +12,48 @@ $body-padding: 0 20px 0 20px;
   margin-left: $margin;
 }
 @mixin mleft($margin) {
-    margin-left: $margin;
+  margin-left: $margin;
 }
+
+@mixin pbottom($padding) {
+  padding-bottom: $padding;
+}
+
+/*
+* Element style
+*/
 
 body {
   padding: $body-padding;
   text-align: center;
 }
+
+/*
+* Class style
+*/
+
+.navbar-nav {
+  transition: top 0.3s;
+
+  a:hover {
+    color: pink !important;
+  }
+}
+
+.carousel-item {
+  button {
+    background-color: $primary-button-color;
+    border-radius: 0;
+  }
+}
+
+// .footer-img {
+//   width: 100%;
+// }
+
+/*
+* Id style
+*/
 
 #footer {
 
@@ -26,6 +62,7 @@ body {
     span {
       @include mright(20px);
       @include mleft(20px);
+
     }
   }
 }

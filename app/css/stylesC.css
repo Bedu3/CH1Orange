@@ -4,11 +4,32 @@
 /*
 * Mixins
 */
+/*
+* Element style
+*/
 body {
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
   text-align: center;
 }
 
+/*
+* Class style
+*/
+.navbar-nav {
+  transition: top 0.3s;
+}
+.navbar-nav a:hover {
+  color: pink !important;
+}
+
+.carousel-item button {
+  background-color: #e60046 !important;
+  border-radius: 0;
+}
+
+/*
+* Id style
+*/
 #footer-bottom span {
   margin-left: 20px;
   margin-left: 20px;
