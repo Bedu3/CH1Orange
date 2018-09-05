@@ -11,6 +11,9 @@ body {
   padding: 0 20px 20px 20px;
   text-align: center;
 }
+body button {
+  background-color: #e60046;
+}
 
 /*
 * Class style
@@ -22,8 +25,29 @@ body {
   color: pink !important;
 }
 
+.carousel-indicators {
+  text-align: left;
+  float: left;
+  left: 2% !important;
+  right: inherit;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width: 1rem;
+  height: 1rem;
+  margin: 2px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: transparent;
+}
+
+ol.carousel-indicators li.active {
+  background: black;
+}
+
 .carousel-item button {
-  background-color: #e60046 !important;
+  background-color: #e60046;
   border-radius: 0;
 }
 
