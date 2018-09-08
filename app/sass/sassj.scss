@@ -1,5 +1,7 @@
 // Variables
 
+$font_primary_color: #ffffff;
+$dd_men_color: #3c4e59;
 
 
 // Mixins
@@ -12,23 +14,61 @@
 
 header {
 	background-color: #3c4e59;
+	height: 40px;
+	padding: 0px;
+	margin: 0px;
+
+	.nav {
+		a {
+			color: $font_primary_color;
+			font-weight: 300;
+
+			.dropdown-menu {
+				color: $dd_men_color;
+				font-weight: 300;
+			}
+		}
+	}
+	
+	.search {
+		padding: 0px;
+		margin: 5px;
+		align-content: right;
+	}
+}
+
+
+.div_nav {
+	background-color: #262626;
+}
+
+svg {
+	background-color: #e95420;
+	align-self: center;
+	padding: 0;
+	margin: 0;
 }
 
 .sect1 {
-	background-color: #2b383f;
+	background-image: url(https://news-cdn.softpedia.com/images/news2/ubuntu-16-04-lts-wallpapers-revealed-for-desktop-and-phone-501169-2.jpg);
+	height: 500px;
+	background-size: cover;
 	padding-top: 65px;
 	padding-bottom: 65px;
 
-	.welcome {
-
+	.welcome  {
 	}
 
 	.welcome p {
+		font-weight: 300;
 		align-self: center;
-		font-size: 50px;
-		color: white;
+		font-size: 45px;
+		color: $font_primary_color;
 	}
 
+	a.btn {
+		margin-bottom: 200px;
+	}
 }
 
 section {
@@ -37,22 +77,34 @@ section {
 		height: 350px;
 	}
 
-	h2 {
+	h3 {
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
 }
 
 .contenido {
+	color: #007aa6;
+	padding-top: 100px;
+	font-size: 1rem;
 		img {
 			height: 100px;
 		}
 		.item3 {
 			width: 100px;
 		}
+}
+
+.contenido_news {
+	
+}
+
+.cards {
+
+	img.openstack {
+		display: inline-flex;
 	}
-
-
+}
 
 footer {
 	font-size: 11px;

@@ -4,32 +4,74 @@
 
 header {
   background-color: #3c4e59;
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+header .nav a {
+  color: #ffffff;
+  font-weight: 300;
+}
+header .nav a .dropdown-menu {
+  color: #3c4e59;
+  font-weight: 300;
+}
+header .search {
+  padding: 0px;
+  margin: 5px;
+  align-content: right;
+}
+
+.div_nav {
+  background-color: #262626;
+}
+
+svg {
+  background-color: #e95420;
+  align-self: center;
+  padding: 0;
+  margin: 0;
 }
 
 .sect1 {
-  background-color: #2b383f;
+  background-image: url(https://news-cdn.softpedia.com/images/news2/ubuntu-16-04-lts-wallpapers-revealed-for-desktop-and-phone-501169-2.jpg);
+  height: 500px;
+  background-size: cover;
   padding-top: 65px;
   padding-bottom: 65px;
 }
 .sect1 .welcome p {
+  font-weight: 300;
   align-self: center;
-  font-size: 50px;
-  color: white;
+  font-size: 45px;
+  color: #ffffff;
+}
+.sect1 a.btn {
+  margin-bottom: 200px;
 }
 
 section .logo1 {
   height: 350px;
 }
-section h2 {
+section h3 {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
+.contenido {
+  color: #007aa6;
+  padding-top: 100px;
+  font-size: 1rem;
+}
 .contenido img {
   height: 100px;
 }
 .contenido .item3 {
   width: 100px;
+}
+
+.cards img.openstack {
+  display: inline-flex;
 }
 
 footer {
