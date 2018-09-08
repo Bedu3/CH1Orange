@@ -46,9 +46,6 @@ svg {
   font-size: 45px;
   color: #ffffff;
 }
-.sect1 a.btn {
-  margin-bottom: 200px;
-}
 
 section .logo1 {
   height: 350px;
@@ -61,21 +58,23 @@ section h3 {
 .contenido {
   color: #007aa6;
   padding-top: 100px;
-  font-size: 1rem;
+  font-size: 0.5rem;
+  margin-bottom: 200px;
 }
-.contenido img {
+.contenido .img {
   height: 100px;
 }
-.contenido .item3 {
-  width: 100px;
+.contenido .item6 .h4 {
+  text-justify: inter-word;
+  justify-content: center;
 }
 
 .cards img.openstack {
   display: inline-flex;
 }
 
-footer {
-  font-size: 11px;
+.footer {
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=sassj.css.map */
