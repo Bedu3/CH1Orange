@@ -82,22 +82,10 @@ ol.carousel-indicators li.active {
 #top-tile {
   background-color: #FCF3BB;
   height: 100%;
-  margin-left: -15px;
-  margin-left: -15px;
-  display: block;
-  position: relative;
-  top: 136px;
-  left: 70px;
-  z-index: 50;
   width: 100%;
   border: 0;
   vertical-align: middle;
-}
-@media only screen and (max-width: 991) {
-  #top-tile {
-    top: 60px;
-    left: 30px;
-  }
+  font-size: 28px;
 }
 
 #about-us-img-bttm {
@@ -108,26 +96,10 @@ ol.carousel-indicators li.active {
 #bottom-tile {
   background-color: #FCEBEE;
   height: 100%;
-  position: relative;
-  top: -105px;
-  left: 45%;
-  z-index: 50;
-}
-@media only screen and (max-width: 1199px) and (min-width: 45%) {
-  #bottom-tile {
-    top: -73px;
-  }
+  font-size: 28px;
 }
 #bottom-tile-img {
-  top: -110px;
-  left: -50%;
-  position: relative;
   width: 100%;
-}
-@media only screen and (max-width: 1439) {
-  #bottom-tile-img {
-    top: -110px;
-  }
 }
 
 .subscription-left {
