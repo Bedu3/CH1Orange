@@ -93,6 +93,12 @@ li {
     font-weight: bold;
     background-color: red;
 }
+@media (max-width:768px) {
+	.strip {
+		background-image: none;
+	}
+}
+
 
 
 
