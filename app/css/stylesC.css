@@ -11,10 +11,7 @@ body {
   padding: 0 20px 20px 20px;
   text-align: center;
 }
-body button {
-  background-color: #e60046;
-}
-body .btn {
+body .btn-primary {
   background-color: #e60046;
   border-radius: 0;
 }
@@ -82,7 +79,6 @@ ol.carousel-indicators li.active {
 #top-tile {
   background-color: #FCF3BB;
   height: 100%;
-  width: 100%;
   border: 0;
   vertical-align: middle;
   font-size: 28px;
