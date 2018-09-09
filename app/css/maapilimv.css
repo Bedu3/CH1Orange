@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+}
+
+.navbar {
+	background-image: linear-gradient(90deg, #ebe5d9, #ada08f);
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar:hover {
+	background: #FFFFFF;
+}
+.my-container1{
+	width: 100%;
+}
+.header {
+	text-align: center;
+	font-family: rubik;
+	color: white;
+	background-color: rgb(130, 118, 109);
+	height: 46px;
+	letter-spacing: .9px;
+	font-size: 12px;
+}
+.my-container0 {
+	display: inline-block;
+    width: auto;
+    margin: .5em;
+    padding: .5em 1em;
+    line-height: 1.4em;
+}
+.navbar-brand {
+	font-family: rubik;
+	font-weight: bold;
+	font-size: 1.22em;
+	letter-spacing: 1px;
+}
+.nav-item {
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-family: Rubik;
+	font-weight: bold;
+}
+#navbarSupportedContent {
+	padding-left: 25px;
+}
+li {
+	padding-right: 35px;
+}
+.content--centered {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 90%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 100;
+    max-width: 1408px;
+}
+.hero-text {
+  	text-align: left;
+  	position: absolute;
+  	max-width: 425px;
+}
+.text-left {
+    text-align: left !important;
+}
+
+.hero-text button {
+  	background-color: #ca886e; 
+    color: white; 
+    height: 46px;
+    width: 152px;
+    font-family: Rubik;
+    font-size: 14px;
+    border: 0;
+}
+.hero-text button:hover {
+  	background-color: #e1d8c7;
+    color: black;
+    border: solid 1px grey;
+}
+.my-container5 {
+    position: relative;
+    text-align: left;
+    color: black;
+    font-family: Rubik;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: red;
+}
+@media (max-width:768px) {
+	.strip {
+		background-image: none;
+	}
+}
+
+
+
+
