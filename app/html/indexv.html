@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="../css/maapilimv.css">
     <!-- Google fonts -->
@@ -15,230 +17,65 @@
   </head>
   <!-- Body starts-->
   <body>
-    <!-- Container -->
-    <div class="container my-container">
-      <!-- top div "$9 Worldwide Shipping on Orders Over $75" *starts -->
-      <div class="row my-row1">
-        <div class="col-sm-12 my-col1">
-          <span>$9 Worldwide Shipping on Orders Over</span><span style="color: #dddd"> $75</span>
+    <!-- top div "$9 Worldwide Shipping on Orders Over $75" *starts -->
+    <div class="header">
+      <div class="container my-container0">
+        <span>$9 Worldwide Shipping on Orders Over</span><span style="color: #dddd"> $75</span>
+      </div>
+    </div>
+    <!-- Nav div -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid my-container1">
+        <a class="navbar-brand" href="#">M A A P I L I M</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">SHOP<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a style="color: black;"class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="glyphicon glyphicon-search"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- Nav div -->
-      <div class="container my-container2 sticky-top">
-        <div class="row my-row2">
-          <nav class="navbar navbar-expand-md">
-            <ul class="navbar-nav">
-              <li class="nav-item1">
-                <a href="https://maapilim.com/" class="nav-link">M A A P I L I M</a>
-              </li>
-            </ul>
-            <div class="menuright" style="padding-left: 999px;">
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">SHOP</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item" style="width: 50px; padding-left: 10px">
-                  <img src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png" style="width: 20px; padding-top:3px;">
-                </li>
-                <li class="nav-item" style="width: 50px">
-                  <img src="http://alpalaz.com/wp-content/uploads/2016/12/user-2-icon.png" style="width: 20px; padding-left:5px;">
-                </li>
-                <li class="nav-item" style="width: 50px">
-                  <img src="http://cdn.onlinewebfonts.com/svg/img_290616.png" style="width: 25px; padding-left: 8px;">
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <!-- homepage image -->
-      <div class="container my-container3">
-        <div class="row my-row3">
-          <div class="" ="use-image-container mobile-only">
-            <img src="../img/maapilim.jpg" class="responsive-wide-image mobile-hidden">
-          </div>
-          <div class="content--centered">
-            <div class="text-left preventOverflowContent">
-              
-              <h1 class="title--flex">Grooming Essentials from the Great Sea</h1>
-              <br><br><br>
-              <p class="content--flex h5--body">Handcrafted products for men, created with natural ingredients from the Mediterranean.</p>
-              <br><br><br>
-              <button class="button button3">SHOP NOW --></button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- logo strip section -->
-      <div class="container my-container5">
-        <img src="../img/logostrip.jpg" alt="logos" style="width:100%;">
-        <div class="centered">As seen on:</div>
-      </div>
-      <!-- Grid products -->
-      <div class="nested">
-        <div class="nested1">
-          <div class="overlay">
-            <img class="grid-img-top" src="../img/Shower essentials.png" alt="Shower" style="width: 450px">
-          </div>
-          <div class="centered1">Shower <br> Essentials</div>
-        </div>
-        <div class="nested1">
-          <div class="overlay">
-            <img class="grid-img-top" src="../img/beardandmustache.png" alt="Shower" style="width: 450px">
-          </div>
-          <div class="centered1">Beard & <br> Mustache</div>
-        </div>
-        <div class="nested1">
-          <div class="overlay">
-            <img class="grid-img-top" src="../img/shaving.png" alt="Shower" style="width: 450px">
-          </div>
-          <div class="centered1">Shaving <br> Products</div>
-        </div>
-        <div class="nested1">
-          <div class="overlay">
-            <img class="grid-img-top" src="../img/hairproducts.png" alt="Shower" style="width: 450px">
-          </div>
-          <div class="centered1">Hair <br> Products</div>
-        </div>
-        <div class="nested1">
-          <div class="overlay">
-            <img class="grid-img-top" src="../img/skinandbody.png" alt="Shower" style="width: 450px">
-          </div>
-          <div class="centered1">Skin & <br> Body</div>
-        </div>
-        <div class="nested1">
-          <div class="overlay">
-            <img class="grid-img-top" src="../img/travel.png" alt="Shower" style="width: 450px">
-          </div>
-          <div class="centered1">Trial and <br> Travel</div>
-        </div>
-      </div>
-      <!-- bottom strip -->
-      <div class="container my-container6">
-        <img src="../img/stripfooter.JPG" alt="logos" style="width:100%;">
-      </div>
-      <hr><br>
-      <!-- Trending products section -->
-      <div class="trending1">
-        <h1>Trending Products</h1>
-      </div>
-      <br>
-      <div class="card-deck">
-        <div class="card">
-          <div class="imgwrapper">
-            <img class="card-img-top" src="../img/hand cream.png" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Hand Cream $27.00 Coming soon</h5>
-          </div>
-        </div>
-        <div class="card">
-          <div class="imgwrapper">
-            <img class="card-img-top" src="../img/oil.png" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">All Purpose Oil $24.00 Coming Soon</h5>
-          </div>
-        </div>
-        <div class="card">
-          <div class="imgwrapper">
-            <img class="card-img-top" src="../img/hairpaste.png" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Hair Paste $22.00 Coming Soon</h5>
-          </div>
-        </div>
-        <div class="card">
-          <div class="imgwrapper">
-            <img class="card-img-top" src="../img/facial.png" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <span class="card-title">Facial Mud Mask $38.00</span>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Carousel/Slider -->
-      <br><br>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="../img/slide1.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../img/slide2.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../img/slide3.jpg" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <br><br>
-      <hr>
-      <br>
-      <!-- Instagram feed -->
-      <!-- SnapWidget -->
-      <div class="instafeed">
-        <h1>Shop Our Instagram</h1>
-        <br>
-        <script src="https://snapwidget.com/js/snapwidget.js"></script>
-        <iframe src="https://snapwidget.com/embed/593914" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
-        <br>
-      </div>
-      <hr>
-      <br>
-      <!-- Magazine -->
-      <div class="trending1">
-        <h1>Magazine</h1>
-      </div>
-      <br><br>
-      <div class="card-deck">
-        <div class="card2">
-          <div class="imgwrapper2">
-            <img class="card-img-top2" src="../img/mag1.jpg" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <p class="card-text"><small class="text-muted">November 02, 2017 | Maapilim Team</small></p>
-            <h5 class="card-title2">How to Care for Your Beard in Bad We..</h5>
-          </div>
-        </div>
-        <br>
-        <div class="card2">
-          <div class="imgwrapper2">
-            <img class="card-img-top2" src="../img/mag2.jpg" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <p class="card-text"><small class="text-muted">November 02, 2017 | Maapilim Team</small></p>
-            <h5 class="card-title2">The Beginner’s Guide To Growing A Beard</h5>
-          </div>
-        </div>
-        <div class="card2">
-          <div class="imgwrapper2">
-            <img class="card-img-top3" src="../img/mag3.jpg" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <p class="card-text"><small class="text-muted">November 02, 2017 | Maapilim Team</small></p>
-            <h5 class="card-title2">6 Ways to Upgrade Your Grooming Routine Today</h5>
-          </div>
+    </nav>
+    <!-- homepage image -->
+    <div class="hero-image">
+      <img src="../img/maapilim.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="content--centered">
+      <div class="text-left">
+        <div class="hero-text">
+          <h1 style="font-size:50px">Grooming Essentials from the Great Sea</h1>
+          <p>Handcrafted products for men, created with natural ingredients from the Mediterranean.</p>
+          <button>SHOP NOW --></button>
         </div>
       </div>
     </div>
+    <!-- logo strip section -->
+    <div class="strip">
+      <img src="../img/logostrip.jpg" class="img-fluid" alt="Responsive image">
+      
+    </div>
+    <!-- Grid products -->
+    <!-- bottom strip -->
+    <!-- Trending products section -->
+    <!-- Carousel/Slider -->
+    <!-- Instagram feed -->
+    <!-- SnapWidget -->
+    <!-- Magazine -->
     <!-- Bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
