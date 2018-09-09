@@ -14,7 +14,6 @@ $dd_men_color: #3c4e59;
 
 header {
 	background-color: #3c4e59;
-	height: 40px;
 	padding: 0px;
 	margin: 0px;
 
@@ -30,10 +29,11 @@ header {
 		}
 	}
 	
-	.search {
+	.busqueda {
 		padding: 0px;
 		margin: 5px;
 		align-content: right;
+		text-align: right;
 	}
 }
 
@@ -42,30 +42,18 @@ header {
 	background-color: #262626;
 }
 
+
+.icono_li {
+	background: #e95420 !important;
+}
+
 svg {
-	background-color: #e95420;
+	// background-color: #e95420;
 	align-self: center;
 	padding: 0;
 	margin: 0;
 }
 
-.sect1 {
-	background-image: url(https://news-cdn.softpedia.com/images/news2/ubuntu-16-04-lts-wallpapers-revealed-for-desktop-and-phone-501169-2.jpg);
-	height: 500px;
-	background-size: cover;
-	padding-top: 65px;
-	padding-bottom: 65px;
-
-	.welcome  {
-	}
-
-	.welcome p {
-		font-weight: 300;
-		align-self: center;
-		font-size: 45px;
-		color: $font_primary_color;
-	}
-}
 
 section {
 	.logo1 {
@@ -77,30 +65,87 @@ section {
 	}
 }
 
+.sect1 {
+	background-image: url(https://news-cdn.softpedia.com/images/news2/ubuntu-16-04-lts-wallpapers-revealed-for-desktop-and-phone-501169-2.jpg);
+	height: 500px;
+	background-size: cover;
+	padding-top: 65px;
+	padding-bottom: 65px;
+
+	.welcome p {
+		font-weight: 300;
+		align-self: center;
+		font-size: 45px;
+		color: $font_primary_color;
+	}
+}
+
+
 .contenido {
 	color: #007aa6;
 	padding-top: 100px;
 	font-size: .5rem;
 	margin-bottom: 200px;
-		.img {
-			height: 100px;
-		}
-		.item3 {
-			// width: 100px;
-		}
+			.img {
+				max-width:100%;
+				height: auto;
+			}
+			
+			.item3 {
+				// width: 100px;
+			}
 
-		.item6 .h4 {
-				text-justify: inter-word;
+			.item4 {
+				justify-content: space-between;
+				align-items: center;
+			p {
+				font-size: 20px;
+			}
+			div {
+				align-items: center;
+			}
+
+			.item5 {
+				p {
+					font-size: 20px;
+				}
+			}
+
+			.item6 {
+				justify-content: space-between;
+				align-items: center;
+				position: absolute;
+			p {
+				justify-content: space-between;
+				align-items: center;
+				font-size: 20px;
+			}
+			img .img_div_item6 {
 				justify-content: center;
+			}
 		}
-}
-
-
-.cards {
-	img.openstack {
-		display: inline-flex;
 	}
 }
+
+
+.tarjetas {
+	.card_kubernetes {
+		.div_tarjeta_izq {
+			justify-content: center;
+		}
+		background-color: rgb(43, 98, 226);
+	}
+	.card_openstacks {
+		.div_tarjeta_der {
+			justify-content: center;
+			.img {
+				height: 300px !important;
+			}
+		}
+	}
+}
+
+
 
 .footer {
 	font-size: 12px;
