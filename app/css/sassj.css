@@ -36,12 +36,18 @@ svg {
   margin: 0;
 }
 
+section .h4 {
+  color: #3c4e59;
+}
 section .logo1 {
   height: 350px;
 }
 section h3 {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+section .news .row {
+  margin-bottom: 100px;
 }
 
 .sect1 {
@@ -68,30 +74,52 @@ section h3 {
   max-width: 100%;
   height: auto;
 }
+.contenido .item2 h3 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.contenido .item3 {
+  font-size: 20px;
+  color: #007aa6;
+}
+.contenido .item3 p {
+  color: #3c4e59;
+}
+.contenido .item3 div {
+  align-items: center;
+}
 .contenido .item4 {
   justify-content: space-between;
   align-items: center;
 }
 .contenido .item4 p {
+  color: #3c4e59;
   font-size: 20px;
 }
 .contenido .item4 div {
   align-items: center;
 }
-.contenido .item4 .item5 p {
+.contenido .item5 p {
+  color: #3c4e59;
   font-size: 20px;
 }
-.contenido .item4 .item6 {
+.contenido .item5 div {
+  align-items: center;
+}
+.contenido .item6 {
   justify-content: space-between;
   align-items: center;
-  position: absolute;
 }
-.contenido .item4 .item6 p {
+.contenido .item6 div {
+  align-items: center;
+}
+.contenido .item6 p {
+  color: #3c4e59;
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
 }
-.contenido .item4 .item6 img .img_div_item6 {
+.contenido .item6 img .img_div_item6 {
   justify-content: center;
 }
 
@@ -101,10 +129,18 @@ section h3 {
 .tarjetas .card_kubernetes .div_tarjeta_izq {
   justify-content: center;
 }
+.tarjetas .card_openstacks .card-body {
+  padding-bottom: 70px;
+  margin-bottom: 10px;
+}
 .tarjetas .card_openstacks .div_tarjeta_der {
   justify-content: center;
 }
-.tarjetas .card_openstacks .div_tarjeta_der .img {
+.tarjetas .card_openstacks .div_tarjeta_der p {
+  margin-top: 50px;
+}
+.tarjetas .card_openstacks .div_tarjeta_der img {
+  margin-top: 50px;
   height: 300px !important;
 }
 
