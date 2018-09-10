@@ -1,0 +1,130 @@
+/*
+* Variables
+*/
+/*
+* Mixins
+*/
+/*
+* Element style
+*/
+body {
+  padding: 0 20px 20px 20px;
+  text-align: center;
+}
+body .btn-primary {
+  background-color: #e60046;
+  border-radius: 0;
+}
+body .btn-black {
+  width: 150px;
+  padding: 0 20px;
+  position: absolute;
+  bottom: -30px;
+  right: 0px;
+  color: #fff;
+  background-color: #000;
+}
+body .btn-dark {
+  color: #fff;
+  background-color: #000;
+}
+body .row h1 {
+  text-align: center !important;
+}
+
+/*
+* Class style
+*/
+.no-padding {
+  padding: 0;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.navbar-nav {
+  transition: top 0.3s;
+}
+.navbar-nav a:hover {
+  color: pink !important;
+}
+
+.carousel-indicators {
+  text-align: left;
+  float: left;
+  left: 2% !important;
+  right: inherit;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  width: 1rem;
+  height: 1rem;
+  margin: 2px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background: transparent;
+}
+
+ol.carousel-indicators li.active {
+  background: black;
+}
+
+.carousel-item button {
+  background-color: #e60046;
+  border-radius: 0;
+}
+
+#top-tile {
+  background-color: #FCF3BB;
+  height: 100%;
+  border: 0;
+  vertical-align: middle;
+  font-size: 28px;
+}
+
+#about-us-img-bttm {
+  border-style: none;
+  border: 0;
+}
+
+#bottom-tile {
+  background-color: #FCEBEE;
+  height: 100%;
+  font-size: 28px;
+}
+#bottom-tile-img {
+  width: 100%;
+}
+
+.subscription-left {
+  background-color: #f3f3f3;
+}
+
+.subscription-right {
+  background-color: #FCEBEE;
+}
+
+#pretty-Guy {
+  background-color: #f3f3f3;
+  justify-content: center;
+  align-items: center;
+}
+
+#press-text {
+  background-color: #f3f3f3;
+  width: 50% !important;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+* Id style
+*/
+#footer-bottom span {
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=stylesC.css.map */
